@@ -82,3 +82,15 @@ nav a:hover {
 .produtos li:hover .preco {
     font-weight: lighter;
 }
+
+footer {
+    text-align: center;
+    padding: 40px 0px;
+    background: url("../_imagens/bg.jpg");
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
