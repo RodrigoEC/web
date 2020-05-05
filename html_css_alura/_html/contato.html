@@ -12,58 +12,93 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="../_imagens/logo.png"></h1>
+                <h1><img src="../_imagens/logo.png" alt="Logo da Alura construções"></h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contatos.html">Contatos</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main>
+        <main class="main-contatos">
             <form>
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" class="input-padrao">
+                <input type="text" id="nome" class="input-padrao" placeholder="Herry Marris" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.pócoton.br" required>
 
                 <label for="tel">Telefone</label>
-                <input type="text" id="tel" class="input-padrao">
+                <input type="tel" id="tel" class="input-padrao" placeholder="(DDD) XXXXX-XXXX" required>
 
                 <label for="msg">Mensagem</label>
-                <textarea cols="40" rows="10" id="msg" class="input-padrao"></textarea>
+                <textarea cols="40" rows="10" id="msg" class="input-padrao" required></textarea>
                 
-                <div>
-                    <p>Como prefere que aconteça o nosso contato?</p>
-                    <label for="radio-email" class="checkbox"><input type="radio" name="contato" value="email" id="radio-email">email</label>
+                <fieldset>
 
-                    <label for="radio-tel" class="checkbox"><input type="radio" name="contato" value="telefone" id="radio-tel">Telefone</label>
+                    <legend>Como podemos lhe contactar?</legend>
+
+                    <label for="radio-email" class="checkbox"><input type="radio" 
+                        name="contato" value="email" id="radio-email">E-mail</label>
+
+                    <label for="radio-tel" class="checkbox"><input type="radio" 
+                        name="contato" value="telefone" id="radio-tel">Telefone</label>
                     
-                    <label for="radio-whatsapp" class="checkbox"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">  WhatsApp</label>
-                </div>    
+                    <label for="radio-whatsapp" class="checkbox"><input type="radio" 
+                        name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
 
-                <div>
-                    <p>Qual o horário você prefere ser atendido?</p>
+                </fieldset>    
+
+                <fieldset>
+                    
+                    <legend>Qual o horário você prefere ser atendido?</legend>
+
                     <select>
-                        <option>Manhã</a></option>
+                        <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>  
-                
-                <label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
 
-                <input type="submit" value="Enviar Formulário">
+                </fieldset>  
+
+                <label class="checkbox" ><input type="checkbox"checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
             </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+                
+            </table>
 
 
 
         </main>
         <footer>
-            <img src="../_imagens/logo-branco.png">
+            <img src="../_imagens/logo-branco.png" alt="Logo da Alura construções">
             <p class="copyright"> &copy; Copyright Barbearia Harry Mary - 2020</p>
         </footer>
     </body>
