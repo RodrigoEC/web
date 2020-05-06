@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 header {
     padding: 20px 0;
     background-color: #AAAAAA;
@@ -32,47 +36,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* -------------------------------------- */
-
-.principal {
-    border-bottom: 4px dotted grey;
-    margin: 20px 0;
-}
-.texto-sobre-nos {
-    font-size: 18px;
-    display: inline-block;
-    padding: 20px;
-    width: 40%;
-    text-justify: auto;
-}
-
-.texto-sobre-nos p {
-    margin: 40px 0;
-}
-
-.titulo-centralizado {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 25px; 
-}
-
-#imagembeneficios {
-    width: 50%;
-    vertical-align: top;
-    margin: 20px 40px;
-    border: 4px solid grey;
-}
-
-
-.beneficios ul {
-    padding: 40px 20px;
-    font-size: 18px;
-}
-
-.beneficios li {
-    margin: 10px 0;
-
-}
 
 
 .produtos {
@@ -203,4 +166,64 @@ td, th {
     border: 1px groove black;
     padding: 5px 0 0;
     text-align: center;
+}
+
+/* ------------------------- */
+/* Página Inicial */
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+.banner {
+    width: 100%;
+}
+
+.titulo-secoes {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.utensilio {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.principal {
+    padding: 3em 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal  em {
+    font-style: italic;
+}
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+
 }
