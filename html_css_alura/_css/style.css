@@ -16,10 +16,11 @@ nav {
     position: absolute;
     top: 130px;
     right: 0;
+    text-shadow: 4px 4px 3px rgba(95, 64, 27, 0.514);
 }
 nav li{
     display: inline;
-    margin-left: 15px;
+    margin-left: 10px ;
     
 }
 
@@ -27,7 +28,7 @@ nav a {
     text-transform: uppercase;
     color: Black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.5em;
     text-decoration: overline;
 }
 
@@ -184,6 +185,7 @@ td, th {
     font-weight: bold;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 3px 3px 3px rgba(39, 39, 39, 0.514);
 }
 
 .titulo-secoes:first-letter {
@@ -211,7 +213,6 @@ td, th {
 
 .principal p {
     margin: 0 0 1em;
-    background-color: #FEFEFE;
 }
 
 .principal strong{
@@ -268,7 +269,7 @@ td, th {
 } */
 
 .itens:nth-child(2n){
-    background-color: rgb(110, 110, 110);
+    background-color: rgba(110, 110, 110, 0.5);
 }
 
 
@@ -282,10 +283,109 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    transition: 400ms;
+    box-shadow: 8px 8px 10px rgba(95, 64, 27, 0.514);
 }
+
+.imagem-beneficios:hover {
+    opacity: 50%;
+}
+
 
 .video {
     width: 560px;
+    height: 315px;
     margin: 2em auto;
 
+}
+
+
+
+/* img + ou ~ p {
+    background: black;
+} */
+
+/* .principal p:not(#missao) {
+    background-color: orange;
+} */
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-content, .video, .produtos, .main-contatos {
+        width: auto
+    }
+
+    h1 {
+        text-align: center;
+        position: static;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 1px;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    .titulo-secoes {
+        font-size: 1.8em;
+        text-shadow: none;
+    }
+
+    .principal, .mapa, .beneficios {
+        padding: 15px;
+    }
+
+    .utensilio {
+        width: 35%
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px ;
+    }
+
+    .video {
+        height: 230px;
+    }
+
+    /* --- PRODUTOS --- */
+
+    .produtos li {
+        display: inline-block;
+        width: 90%;
+        margin: 10px;
+        
+    }
+
+    .produtos {
+        text-align: center;
+    }
+    
+    /* --- CONTATOS --- */
+
+    .main-contatos {
+        margin: 0 0 0 15px;
+    }
+
+    form label, input {
+        margin-top: 10px;
+    }
+
+    .enviar, .checkbox, .input-padrao, legend {
+        width: 90%;
+    }
+
+    select {
+        width: 30%
+    }
+
+    table {
+        width: 90%;
+        text-align: center;
+    }
 }
