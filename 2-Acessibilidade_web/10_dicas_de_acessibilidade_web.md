@@ -89,7 +89,7 @@ Exemplos:
 ```
 
 ---
-## 8 - "Clique aqui" para link: NÂO
+## 8 - "Clique aqui" para link: NÃO
 ---
 Por exemplo, caso usuários com limitações visuais queiram, atraveś de leitores de tela, dar uma varredura pelos links da página? Ao utilizarmos apenas "clique aqui" para sinalizar o link nós não passamos ao usuário nenhuma informação real acerca do conteúdo desse link, os links precisam ter significados que remetem ao conteúdo do link.
 
@@ -107,11 +107,11 @@ Bom, esse tópico é bem auto explicativo. É essencial assegurar que o conteúd
 Existem inúmeras aplicações para esse tópico, como setar a cor da fonte igual ao background e usar uma imagem como plano de fundo. Caso a imagem não carregue vai ser impossível de ler o que está escrito! Por isso é preciso ter cuidado em relação a isso.
 
 ---
-## 10 - Teste seu site com CSS e JqvaScript desabilitados
+## 10 - Teste seu site com CSS e JavaScript desabilitados
 ---
 Se o seu site faz sentido mesmo sem CSS e JavaScript ativados, no sentido de os textos estarem do tamanho certo e coerentes, então o seu site ja está muito mais acessível. 
 
 ---
-## Bonus - Considere diferentes contextos de uso
+## Bônus - Considere diferentes contextos de uso
 ---
 Existem diveeeersos tipos de limitações diferentes! É importante que nós consideremos contexos diferentes e diversos tipos de limitações que o nosso usuário possa ter. Acessibilidade não é um problema, a acessibilidade só é difícil quando não é feita de forma adequada.
