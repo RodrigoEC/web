@@ -1,6 +1,6 @@
 # 10 dicas de acessibilidade para você não esquecer!
 
-Arquivo feito baseando-se na palestra dada pela [`Talita Pagani`(colocar github dela)]() na Frontinsampa 2016, onde ela discursou acerca de Acessibilidade na prática. [Link para o vídeo da palestra](https://www.youtube.com/watch?v=4URTZHk6tz0).
+Arquivo feito baseando-se na palestra dada pela [`Talita Pagani`](https://github.com/talitapagani) na Frontinsampa 2016, onde ela discursou acerca de Acessibilidade na prática. [Link para o vídeo da palestra](https://www.youtube.com/watch?v=4URTZHk6tz0).
 
 E sempre lembre-se!
 ---
