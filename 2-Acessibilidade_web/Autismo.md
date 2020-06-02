@@ -6,7 +6,7 @@ Esse arquivo foi criado baseando-se no curso "Acessibilidade web: Introdução a
 ## Introdução
 ---
 
-Segundo a cartilha disponibilizada acima "O autismo é considerado uma síndrome comportamental (e não um tipo de deficiência), com causas múltiplas. É um distúrbio dedesenvolvimento que se caracteriza por um déficite de interação social, expresso pela inabilidade em relacionar-se com outros e usualmente combinado com dificuldades de linguagem e de comportamento.
+Segundo a cartilha disponibilizada acima "O autismo é considerado uma síndrome comportamental (e não um tipo de deficiência), com causas múltiplas. É um distúrbio dedesenvolvimento que se caracteriza por um déficite de interação social, expresso pela inabilidade em relacionar-se com outros e usualmente combinado com dificuldades dew linguagem e de comportamento.
 
 A cartilha também informa que alguns auores classificam o autismo em dois grupos:
 
